@@ -1,15 +1,15 @@
 function isHot(temperature) {
-  return result = temperature >= 80 ? 'Yes, it is indeed hot.' : 'No, it is not hot.';
+  return temperature >= 80 ? 'Yes, it is indeed hot.' : 'No, it is not hot.';
 }
 
 
 function helloThere(name) {
-  return result = name.length < 6 ? 'Hello, Colin' : 'Hi, Mesuara';
+  return name.length < 6 ? 'Hello, Colin' : 'Hi, Mesuara';
 }
 
 
 function goodbyeYou(name) {
-  return result = name === undefined ? 'Goodbye, stranger' : `Goodbye, ${name}`;
+  return name === undefined ? 'Goodbye, stranger' : `Goodbye, ${name}`;
 }
 
 
