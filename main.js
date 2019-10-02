@@ -9,7 +9,7 @@ function helloThere(name) {
 
 
 function goodbyeYou(name) {
-  return result = name === 'Colin' ? 'Goodbye, Colin' : 'Goodbye, stranger';
+  return result = name === undefined ? 'Goodbye, stranger' : `Goodbye, ${name}`;
 }
 
 
